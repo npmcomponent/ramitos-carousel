@@ -1,8 +1,8 @@
-var interpolate = require('interpolate'),
-    classes = require('classes'),
-    domify = require('domify'),
-    sgen = require('sgen'),
-    ev = require('event');
+var interpolate = require('ramitos-interpolate'),
+    classes = require('component-classes'),
+    domify = require('component-domify'),
+    sgen = require('ramitos-sgen'),
+    ev = require('component-event');
 
 var templates = {};
 var ids = {};
